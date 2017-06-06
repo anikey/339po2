@@ -1,14 +1,28 @@
 body { 
-	font-family: Affogato-Light;
+	font-family: Affogato-Regular;
 	margin-left: 1rem;
 }
 
 code {
 	background-color: rgb(211, 211, 211);
 	margin-left: 1rem;
-	font-family: Affogato-Light;
+	font-family: Affogato-Regular;
 	display: inline-block;
 }
+
+/* FONTS /////////////////////////////////////*/
+
+@font-face {
+    font-family: 'Affogato-Light';
+    src: url('webfont/Affogato_Light.woff');
+}
+
+@font-face{
+	font-family: 'Affogato-Regular';
+	src: url('webfont/Affogato_Regular.woff');
+}
+
+/* ////////////////////////////////////////////*/
 
 .submit {
 	background-color: rgb(182, 212, 51);
@@ -19,14 +33,9 @@ code {
 	padding-left: 3rem;
 	padding-right: 3rem;
 	font-size: 16px;
-	font-family: Affogato-Light;
+	font-family: Affogato-Regular;
 	text-decoration: none;
 	border-radius: 5px;
-}
-
-@font-face {
-    font-family: Affogato-Light;
-    src: url(affogato_light.woff);
 }
 
 .submit:hover, focus {
@@ -42,7 +51,7 @@ code {
 	padding-left: 1rem;
 	padding-right: 1rem;
 	font-size: 14px;
-	font-family: Affogato-Light;
+	font-family: Affogato-Regular;
 	text-decoration: none;
 	transition: color 0.5s;
 }
@@ -92,7 +101,7 @@ h6 {
 }
 
 .test {
-	font-family: Affogato-Light;
+	font-family: Affogato-Regular;
 	color: rgb(65, 64, 66);
 	line-height: 1.3rem;
 	font-size: 14px;
