@@ -22,6 +22,11 @@ code {
 	src: url('webfont/Affogato_Regular.woff');
 }
 
+@font-face{
+	font-family:'brandon-grotesque';
+	src:url('webfont/Brandon_reg_0.otf');
+}
+
 /* ////////////////////////////////////////////*/
 
 .submit {
