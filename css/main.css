@@ -1,0 +1,118 @@
+body { 
+	font-family: Affogato-Light, Arial;
+	margin-left: 1rem;
+}
+
+code {
+	background-color: rgb(211, 211, 211);
+	margin-left: 1rem;
+	font-family: Affogato-Light, Arial;
+	display: inline-block;
+}
+
+.submit {
+	background-color: rgb(182, 212, 51);
+	color: white;
+	border: 1px solid;
+	border-color: rgb(182, 212, 51);
+	padding: 0.4rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	font-size: 16px;
+	font-family: Affogato-Light, Arial;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.submit:hover, focus {
+	background-color: rgb(182, 212, 51);
+	color: white;
+	background-color: rgb(180, 225, 20);
+}
+
+.button-nav {
+	color: gray;
+	display: inline-block;
+	padding: 0.3rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	font-size: 14px;
+	font-family: Affogato-Light, Arial;
+	text-decoration: none;
+	transition: color 0.5s;
+}
+
+.button-nav:hover, focus {
+	color: rgb(182, 212, 51);
+	text-decoration: underline;
+}
+
+.main {
+	font-family: brandon-grotesque, Arial;
+	color: rgb(182, 212, 51);
+	font-size: 30px;
+}
+
+.product-card {
+	padding: 1rem;
+	text-align: center;
+	vertical-align: top;
+	display: inline-block; 
+	line-height: 0.1rem;
+}
+
+h6 {
+	color: red;
+}
+
+.product-image img {
+	max-width: 100%;
+}
+
+.product-info {
+	margin-top: auto;
+	display: block;
+}
+
+.sec {
+	font-family: brandon-grotesque, Arial;
+	color: rgb(65, 64, 66);
+	font-size: 24px;
+}
+
+.section {
+	font-family: brandon-grotesque, Arial;
+	color: rgb(65, 64, 66);
+	font-size: 20px;
+}
+
+.test {
+	font-family: Affogato-Light, Arial;
+	color: rgb(65, 64, 66);
+	line-height: 1.3rem;
+	font-size: 14px;
+	width: 60%;
+}
+
+input[type=text] {
+	width: 30%;
+	padding: 0.5rem;
+    margin: 0.4rem 0;
+    box-sizing: border-box;
+    border: 1px solid gray;
+}
+
+input[type=text]:focus {
+	border: 2px solid #555;
+	outline: none;
+}
+
+a {
+	text-decoration: underline;
+	color: rgb(182, 212, 51);
+}
+
+a:hover {
+	color: rgb(180, 230, 20);
+
+}
