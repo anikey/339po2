@@ -135,3 +135,35 @@ a:hover {
 	color: rgb(180, 230, 20);
 
 }
+
+
+figure{
+	display:inline;
+}
+
+
+img.foodpic{
+	max-width: 20%;
+	max-height: 20%;
+}
+
+div.color1{
+  background-color:#F7CB11;
+  display:inline-block;
+}
+
+div.color2{
+  background-color: #F8F059;
+  display:inline-block;
+}
+
+div.color3{
+  display:inline-block;
+  background-color: #0CC10C;
+}
+
+div.color4{
+  display:inline-block;
+  background-color: #049904;
+}
+
