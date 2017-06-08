@@ -7,7 +7,7 @@
     <title>Style Guide Template</title>
     <meta name=viewport content="width=device-width, initial-scale=1">
     <link href="css/main.css" rel="stylesheet">
-    <link href="css/grids.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
     <link href="css/affogato.css" rel="stylesheet">
 
   </head>
@@ -119,7 +119,7 @@
       <section>
         <hr>
         <h2>Paragraphs</h2>
-        <p class="test">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget leo nisl. Nunc fringilla scelerisque justo elementum congue. Etiam porttitor sapien non rhoncus tempor. Morbi elementum ac urna ac posuere. Integer porta, lorem in consectetur interdum, nulla velit porttitor tellus, pretium fringilla urna urna at ligula. Cras massa odio, vulputate ut dolor posuere, viverra ultricies nunc. Nunc aliquam volutpat nisl non commodo. Proin venenatis maximus orci, quis facilisis felis pharetra sit amet. (Affogato-Light - 14)</p>
+        <p class="test">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget leo nisl. Nunc fringilla scelerisque justo elementum congue. Etiam porttitor sapien non rhoncus tempor. Morbi elementum ac urna ac posuere. Integer porta, lorem in consectetur interdum, nulla velit porttitor tellus, pretium fringilla urna urna at ligula. Cras massa odio, vulputate ut dolor posuere, viverra ultricies nunc. Nunc aliquam volutpat nisl non commodo. Proin venenatis maximus orci, quis facilisis felis pharetra sit amet. (Affogato-Regular - 14)</p>
         <br>
 
       </section>
@@ -147,9 +147,16 @@
         <hr>
         <h2>Grid Structure</h2>
           <div class="container box">
-            <div class="grid-col-1of3 block"></div>
-            <div class="grid-col-1of3 block"></div>
-            <div class="grid-col-1of3 block"></div>
+            <div class="grid-col-1of3 block">
+              <img src="imgs/pop4.jpg" alt="popsicle" height="200px">
+                
+            </div>
+            <div class="grid-col-1of3 block">
+              <p> here is some content </p>
+            </div>
+            <div class="grid-col-1of3 block">
+               <img src="imgs/sa8.jpg" alt="saladjar" height="200px">
+            </div>
             <br>
           </div>
       </section>
@@ -157,7 +164,39 @@
       <section>
         <br><br>
         <h2>Product Listing</h2>
-         <div class="product-card">
+
+        <div class="content-container"> 
+        <!-- hold all products in the listing -->
+        
+          <div class="product-item">  <!-- product item -->
+             <a href = "#"> <!-- link to product page -->
+              <div class="product-image">
+                <img src="imgs/yo3.jpg" alt="yogurt">
+                <div class="product-overlay"></div>
+              </div>
+            </a>
+            <div class="product-info">
+              <div class="product-name"> Yogurt </div> 
+              <div class="product-price"> $4.50 </div>
+            </div>
+          </div>
+
+          <div class="product-item">  <!-- product item -->
+             <a href = "#"> <!-- link to product page -->
+              <div class="product-image">
+                <img src="imgs/acai1.jpg" alt="acai">
+                <div class="product-overlay"></div>
+              </div>
+            </a>
+            <div class="product-info">
+              <div class="product-name"> Acai </div> 
+              <div class="product-price"> $5.00 </div>
+            </div>
+          </div>
+
+        </div> <!-- end of content container -->
+
+        <!--  <div class="product-card">
            <div class="product-image">
              <img src="img/juice.jpg" alt="Juice">
            </div>
@@ -166,7 +205,7 @@
            <h5>Orange Juice</h5>
            <h6>$8.00</h6>
         </div>
-        </div>
+        </div> -->
       </section>
 
     </section>
