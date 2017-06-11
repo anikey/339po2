@@ -3,6 +3,12 @@ body {
 	margin-left: 1rem;
 }
 
+#content {
+	margin-left: 10rem;
+	margin-top: 2rem;
+	width: 74%
+}
+
 code {
 	background-color: rgb(211, 211, 211);
 	margin-left: 1rem;
@@ -30,23 +36,28 @@ code {
 /* ////////////////////////////////////////////*/
 
 .submit {
-	background-color: rgb(182, 212, 51);
+	background-color: #0CC10C;
 	color: white;
 	border: 1px solid;
-	border-color: rgb(182, 212, 51);
+	border-color: #0CC10C;
 	padding: 0.4rem;
 	padding-left: 3rem;
 	padding-right: 3rem;
-	font-size: 16px;
+	font-size: 1rem;
 	font-family: Affogato-Regular;
 	text-decoration: none;
 	border-radius: 5px;
 }
 
 .submit:hover, focus {
-	background-color: rgb(182, 212, 51);
 	color: white;
-	background-color: rgb(180, 225, 20);
+	background-color: #24c724;
+}
+
+.nav-bar {
+	float: right;
+	margin-right: 7rem;
+	margin-top: 1.5rem;
 }
 
 .button-nav {
@@ -54,21 +65,21 @@ code {
 	display: inline-block;
 	padding: 0.3rem;
 	padding-left: 1rem;
-	padding-right: 1rem;
-	font-size: 14px;
+	padding-right: 5rem;
+	font-size: 0.9rem;
 	font-family: Affogato-Regular;
 	text-decoration: none;
 	transition: color 0.5s;
 }
 
 .button-nav:hover, focus {
-	color: rgb(182, 212, 51);
+	color: #0CC10C;
 	text-decoration: underline;
 }
 
 .main {
 	font-family: brandon-grotesque, Arial;
-	color: rgb(182, 212, 51);
+	color: #0CC10C;
 	font-size: 30px;
 }
 
@@ -122,25 +133,23 @@ input[type=text] {
 }
 
 input[type=text]:focus {
-	border: 2px solid #555;
+	border: 1px solid #555;
 	outline: none;
 }
 
 a {
 	text-decoration: underline;
-	color: rgb(182, 212, 51);
+	color: #F7CB11;
 }
 
 a:hover {
-	color: rgb(180, 230, 20);
+	color: #F9D955;
 
 }
-
 
 figure{
 	display:inline;
 }
-
 
 img.foodpic{
 	max-width: 20%;
@@ -167,6 +176,18 @@ div.color4{
   background-color: #049904;
 }
 
+div.logo{
+  display:inline-block;
+  background-color: gray;
+  margin-left: 10rem;
+  margin-top: -0.21rem;
+}
+
+div.cover {
+  display:inline-block;
+  background-color: gray;
+  margin-left: -1rem;
+}
 
 /* PRODUCT LISTING ////////////*/
 
