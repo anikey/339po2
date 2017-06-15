@@ -9,7 +9,9 @@ body
 #content {
 	margin-left: 10rem;
 	margin-top: 2rem;
-	width: 74%
+	width: 74%;
+	height: 900px;
+
 }
 
 code {
@@ -53,6 +55,74 @@ code {
 }
 
 .submit:hover, focus {
+	color: white;
+	background-color: #24c724;
+}
+
+.submit-checkout {
+	background-color: #0CC10C;
+	color: white;
+	border: 1px solid;
+	border-color: #0CC10C;
+	padding: 0.4rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	margin-top: 5rem;
+	font-size: 1rem;
+	font-family: Affogato-Regular;
+	text-decoration: none;
+	border-radius: 5px;
+	float: right;
+	clear: both;
+	display: inline-block;
+}
+
+.submit-checkout:hover, focus {
+	color: white;
+	background-color: #24c724;
+}
+
+.submit-back {
+	background-color: #0CC10C;
+	color: white;
+	border: 1px solid;
+	border-color: #0CC10C;
+	padding: 0.4rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	margin-top: 5rem;
+	font-size: 1rem;
+	font-family: Affogato-Regular;
+	text-decoration: none;
+	border-radius: 5px;
+	float: left;
+
+	display: inline-block;
+}
+
+.submit-back:hover, focus {
+	color: white;
+	background-color: #24c724;
+}
+
+.submit-center {
+	background-color: #0CC10C;
+	color: white;
+	border: 1px solid;
+	border-color: #0CC10C;
+	padding: 0.4rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	margin-top: 2rem;
+	margin-left: 20rem;
+	font-size: 1rem;
+	font-family: Affogato-Regular;
+	text-decoration: none;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.submit-center:hover, focus {
 	color: white;
 	background-color: #24c724;
 }
@@ -107,6 +177,7 @@ h6 {
 	display: block;
 }*/
 
+
 .sec {
 	font-family: brandon-grotesque, Arial;
 	color: rgb(65, 64, 66);
@@ -128,16 +199,38 @@ h6 {
 }
 
 input[type=text] {
-	width: 30%;
+	width: 60%;
 	padding: 0.5rem;
     margin: 0.4rem 0;
     box-sizing: border-box;
     border: 1px solid gray;
+   	font-family: Arial;
+   	font-size: 0.8rem;
 }
 
 input[type=text]:focus {
-	border: 1px solid #555;
+	border: 1.5px solid #555;
 	outline: none;
+}
+
+input[type=date] {
+	width: 60%;
+	padding: 0.5rem;
+    margin: 0.4rem 0;
+ 	font-family: Arial;
+    font-size: 0.8rem;
+    box-sizing: border-box;
+    border: 1px solid gray;
+}
+
+input[type=date]:focus {
+	border: 1.5px solid #555;
+	outline: none;
+}
+
+.fields
+{
+	margin-top: 2rem;
 }
 
 a {
@@ -264,3 +357,100 @@ div.logo{
 	margin-top: 0.5rem;
 	text-align: center;
 }
+
+.product-image-hor img
+{
+	max-width: 20%;
+	max-height: 20%;
+	float: left;
+
+}
+
+/*.product-item-hor
+{
+	margin: 1rem;
+	width: 20%; set width in accordance to # of columns
+}
+
+.product-image-hor
+{
+	position: relative;
+	width:100%;
+	height:auto;
+
+}*/
+
+.product-name-hor
+{
+	float: left;
+	padding-left: 1rem;
+}
+
+
+hr.gray-line
+{
+	color: #EDEDED;
+}
+
+table, th, td {
+	text-align: left;
+
+}
+
+th
+{
+	font-weight: bold;
+	padding-bottom: 0.7rem;
+}
+
+th.label-padding
+{
+	padding-left: 3rem;
+}
+
+td.label-padding
+{
+	padding-left: 3rem;
+}
+
+
+th, td {
+	border-bottom: 1px solid #ddd;
+}
+
+td 
+{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.quantity 
+{
+	padding-left: 4.5em;
+}
+
+.total {
+	padding-top: 1rem;
+	font-size: 1.1rem;
+	padding-right: 6.5rem;
+	float: right;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+.confirm
+{
+	text-align: center;
+	padding-top: 2rem;
+}
+
+/*.cart-summary
+{
+	background-color: #EDEDED;
+	margin-top: 2rem;
+	width: 50%;
+	float: right;
+	display: inline-block;
+}*/
