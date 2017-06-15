@@ -4,7 +4,7 @@
 }
 
 /*apply styling to all classes that start with "grid-"*/
-[class^='grid-col']
+[class^='grid-']
 {
 	padding:0;
 	margin:0;
@@ -30,8 +30,19 @@
 	/*border: solid 1px rgb(4, 153, 4);*/
 }
 
+.grid-col-1of2
+{
+	width:48%;
+	/*border: solid 1px rgb(4, 153, 4);*/
+}
 
-/* media query */
+.grid-col-1of1
+{
+	width: 90%;
+	/*border: solid 1px rgb(4, 153, 4);*/
+}
+
+/* MEDIA QUERY *************************************/
 @media (max-width:50em)
 {
 	.block
