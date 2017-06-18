@@ -4,6 +4,8 @@ body
 	/*margin-left: 1rem;*/
 	margin:0;
 	padding:0;
+	min-height: 100%;
+	height: 100%;
 }
 
 #content {
@@ -114,7 +116,7 @@ code {
 	padding-left: 3rem;
 	padding-right: 3rem;
 	margin-top: 2rem;
-	margin-left: 20rem;
+	margin-left: 40%;
 	font-size: 1rem;
 	font-family: Affogato-Regular;
 	text-decoration: none;
@@ -129,7 +131,7 @@ code {
 
 .nav-bar {
 	float: right;
-	margin-right: 7rem;
+	margin-right: 13rem;
 	margin-top: 1.5rem;
 }
 
@@ -137,7 +139,7 @@ code {
 	color: gray;
 	display: inline-block;
 	padding: 0.3rem;
-	padding-left: 1rem;
+	padding-left: 0.1rem;
 	padding-right: 5rem;
 	font-size: 0.9rem;
 	font-family: Affogato-Regular;
@@ -247,9 +249,18 @@ figure{
 	display:inline;
 }
 
-img.foodpic{
+img.foodpic {
 	max-width: 20%;
 	max-height: 20%;
+}
+
+.cart img {
+	width: 40px;
+	height: 33px;
+	clear: both;
+	float: right;
+	display: inline-block;
+	margin-right: 11rem;
 }
 
 div.color1{
@@ -525,6 +536,33 @@ table {
 	padding-top: 2rem;
 }
 
+.footer {
+	display: block;
+	background: #F0F0F0;
+	padding: 1rem 2rem 2rem;
+	padding-top: 2rem;
+	padding-bottom: 5rem;
+}
+
+.credits {
+	font-size: 0.9rem;
+	float: left;
+	margin-left: 9rem;
+	padding-top: 0.4rem;
+}
+
+.social {
+	padding-top: 0.5rem;
+	float: right;
+	padding-right: 3rem;
+}
+
+.social img {
+	width: 45px;
+	height: 45px;
+	margin-left: -4rem;
+}
+
 /*.cart-summary
 {
 	background-color: #EDEDED;
@@ -533,3 +571,10 @@ table {
 	float: right;
 	display: inline-block;
 }*/
+
+/*CITATIONS
+
+Footer: https://codepen.io/cbracco/pen/zekgx
+Icons: https://www.vecteezy.com/vector-art/95039-free-social-media-icons
+
+*/
