@@ -254,13 +254,25 @@ img.foodpic {
 	max-height: 20%;
 }
 
+.cart figure
+{
+   margin-left:0;
+}
+
 .cart img {
 	width: 40px;
 	height: 33px;
 	clear: both;
 	float: right;
 	display: inline-block;
-	margin-right: 11rem;
+	padding:0;
+	margin-left: -2.5rem;
+	margin-right: 0.5rem;
+   /*border: solid 1px red;*/
+
+
+	/*margin-right: 11rem;*/
+	/*border: solid 1px red;*/
 }
 
 div.color1{
@@ -365,6 +377,16 @@ textarea
 /* reference: 
    https://www.w3schools.com/howto/howto_css_image_overlay.asp */
 
+.product-row
+{
+	/*border: solid 1px green;*/
+}
+
+.product-section
+{
+	padding-left: 1rem;
+}
+
 .product-item
 {
 	margin: 1rem;
@@ -398,6 +420,12 @@ textarea
 	position: relative;
 	max-width:100%;
 	height:auto;
+}
+
+.product-image figure
+{
+	display:inline-block;
+	margin:0;
 }
 
 .product-image img
