@@ -35,41 +35,51 @@
     <div class="cover"></div>
 
     <section id="content">
-
-        <h1>3. Payment Confirmation</h1>
+        <h1>1. Information and Delivery</h1>
 
         <section>
         <hr>
-
           <div class="payment-form">
-            <br>
-            <div class="details-payment">
-              <h1>Credit Card Information:</h1>
-              <p>
-                Credit Card Number: 4609-9392-1224-XXXX<br>
-                Cardholder Name: Jane Doe<br>
-                Expiration Date: 05/19<br>
-                Address: 1234 Food Street<br>
-                Zip/Postal Code: V4T 4T5<br>
-                City: Vancouver<br>
-                Province: BC<br>
-                Phone Number: 604-123-4567<br>
-              </p>
+
+            <div class="fields-personal">
+              <form action="/action_page.php">
+                  <br>First Name
+                  <br>
+                  <input type="text" name="fname"><br>
+              </form>
+              <br>
+              <form action="/action_page.php">
+                  Last Name
+                  <br>
+                  <input type="text" name="fname"><br>
+              </form>
+              <br>
+              <form action="/action_page.php">
+                  Email Address
+                  <br>
+                  <input type="text" name="fname"><br>
+              </form>
+              <br>
             </div>
 
-            <div class="details-delivery">
-              <h1>Personal and Delivery Information:</h1>
-              <p>
-                First Name: Jane<br>
-                Last Name: Doe<br>
-                Email Address: janedoe@gmail.com<br>
-                Delivery Type: Standard<br>
-                Address: 1234 Food Street<br>
-              </p>
+            <div class="fields-delivery">
+
+                  Delivery Type<br><br>
+                  <input id="option" type="radio" name="delivery">
+                  <label for="option">Standard</label>
+                  <input id="option2" type="radio" name="delivery">
+                  <label for="option2">Express</label><br>
+
+              <form action="/action_page.php">
+                  <br>Delivery Address
+                  <br>
+                  <input type="text" name="fname"><br>
+              </form>
+
             </div>
 
-            <a class="submit-checkout" href="order-thankyou.html">Complete Purchase »</a>
-            <a class="submit-back" href="order-payment.html">« Back to Information</a>
+           <a class="submit-checkout" href="order-payment.html">Payment Information »</a>
+           <a class="submit-back" href="order-cart.html">« Back to Cart</a>
 
           </div>
 
@@ -94,14 +104,15 @@
 
     </section>
 
-    </section>
+  </section>
+
+  </body>
+</html>
 
 <!-- CITATIONS
 
   Table CSS: https://www.w3schools.com/css/css_table.asp 
   Table HTML: https://www.w3schools.com/html/html_tables.asp  
+  Radio Buttomns: http://cssdeck.com/labs/ldmtsmfk
 
 -->
-
-  </body>
-</html>
