@@ -5,7 +5,12 @@ body
 	margin:0;
 	padding:0;
 	min-height: 100%;
+	position: relative;
+}
+
+html {
 	height: 100%;
+	box-sizing: border-box;
 }
 
 #content {
@@ -67,8 +72,8 @@ code {
 	border: 1px solid;
 	border-color: #0CC10C;
 	padding: 0.4rem;
-	padding-left: 3rem;
-	padding-right: 3rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
 	margin-top: 5rem;
 	font-size: 1rem;
 	font-family: Affogato-Regular;
@@ -90,8 +95,8 @@ code {
 	border: 1px solid;
 	border-color: #0CC10C;
 	padding: 0.4rem;
-	padding-left: 3rem;
-	padding-right: 3rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
 	margin-top: 5rem;
 	font-size: 1rem;
 	font-family: Affogato-Regular;
@@ -201,7 +206,7 @@ h6 {
 }
 
 input[type=text] {
-	width: 60%;
+	width: 40%;
 	padding: 0.5rem;
     margin: 0.4rem 0;
     box-sizing: border-box;
@@ -210,13 +215,21 @@ input[type=text] {
    	font-size: 0.8rem;
 }
 
+.zip {
+	width: 45%;
+}
+
+.pnumber {
+	width: 75%;
+}
+
 input[type=text]:focus, textarea {
 	border: 1.5px solid #555;
 	outline: none;
 }
 
 input[type=date] {
-	width: 60%;
+	width: 30%;
 	padding: 0.5rem;
     margin: 0.4rem 0;
  	font-family: Arial;
@@ -565,11 +578,16 @@ table {
 }
 
 .footer {
+	position: absolute;
 	display: block;
+	bottom: 0;
+	right: 0;
+	left: 0;
 	background: #F0F0F0;
+	margin-top: 100rem;
 	padding: 1rem 2rem 2rem;
 	padding-top: 2rem;
-	padding-bottom: 5rem;
+	padding-bottom: 2.6rem;
 }
 
 .credits {

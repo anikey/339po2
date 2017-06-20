@@ -14,30 +14,86 @@
 
   <body>
 
-    <div class="logo" style="width:170px;height:60px;"></div>
+    <section id="top-bar">
 
-    <nav class="nav-bar">
-      <a class="button-nav" href="index.html">Home</a>
-      <a class="button-nav" href="about.html">About</a>
-      <a class="button-nav" href="menu.html">Menu</a>
-      <a class="button-nav" href="order.html">Order</a>
-    </nav>
+      <div class="logo" style="width:170px;height:60px;"></div>
+
+      <nav class="nav-bar">
+        <a class="button-nav" href="index.html">Home</a>
+        <a class="button-nav" href="about.html">About</a>
+        <a class="button-nav" href="menu.html">Menu</a>
+        <a class="button-nav" href="order.html">Order</a>
+        <a class="cart" href="order-cart.html">
+          <figure>
+            <img src="imgs/cart.png" alt="shopping cart">
+          </figure>
+        </a>
+      </nav>
+
+    </section>
 
     <div class="cover"></div>
 
     <section id="content">
 
-        <h1>Order Confirmation</h1>
+        <h1>2. Payment Confirmation</h1>
 
+        <section>
         <hr>
-           <p class="confirm">Thank you for your purchase. The receipt has been sent to your email.</p>
-           <a class="submit-center" href="index.html">Print Receipt</a>
-            </div>
+
+          <div class="payment-form">
+
+            <br>
+            <p>Credit Card Number: 4609-9392-1224-XXXX</p>
+
+            <br>
+            <p>Cardholder Name: Jane Doe</p>
+
+            <br>
+            <p>Expiration Date: 05/19</p>
+ 
+            <br>
+            <p>Address: 1234 Food Street</p>
+
+            <br>
+            <p>Zip/Postal Code: V4T 4T5</p>
+
+            <br>
+            <p>City: Vancouver</p>
+
+            <br>
+            <p>Province: BC</p>
+
+            <br>
+            <p>Phone Number: 604-123-4567</p>
+
+            <a class="submit-checkout" href="order-thankyou.html">Complete Purchase</a>
+            <a class="submit-back" href="order-cart.html">Back to Information</a>
 
           </div>
 
       </section>
 
+    </section>
+
+    <section>
+
+      <div class="footer">
+        <p class="credits">© 2017 Healthy Hipsters. All rights reserved.</p>
+        <div class="social">
+          <figure>
+            <img src="imgs/Facebook.png" alt="Facebook">
+          </figure>
+          <figure>
+            <img src="imgs/Instagram.png" alt="Instagram">
+          </figure>
+          <figure>
+            <img src="imgs/Twitter.png" alt="Twitter">
+          </figure>
+        </div>
+      </div>
+
+    </section>
 
 <!-- CITATIONS
 
@@ -45,8 +101,6 @@
   Table HTML: https://www.w3schools.com/html/html_tables.asp  
 
 -->
-
-    </section>
 
   </body>
 </html>

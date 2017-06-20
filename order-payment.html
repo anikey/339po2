@@ -14,20 +14,29 @@
 
   <body>
 
-    <div class="logo" style="width:170px;height:60px;"></div>
+    <section id="top-bar">
 
-    <nav class="nav-bar">
-      <a class="button-nav" href="index.html">Home</a>
-      <a class="button-nav" href="about.html">About</a>
-      <a class="button-nav" href="menu.html">Menu</a>
-      <a class="button-nav" href="order.html">Order</a>
-    </nav>
+      <div class="logo" style="width:170px;height:60px;"></div>
+
+      <nav class="nav-bar">
+        <a class="button-nav" href="index.html">Home</a>
+        <a class="button-nav" href="about.html">About</a>
+        <a class="button-nav" href="menu.html">Menu</a>
+        <a class="button-nav" href="order.html">Order</a>
+        <a class="cart" href="order-cart.html">
+          <figure>
+            <img src="imgs/cart.png" alt="shopping cart">
+          </figure>
+        </a>
+      </nav>
+
+    </section>
 
     <div class="cover"></div>
 
     <section id="content">
 
-        <h1>Payment Information</h1>
+        <h1>1. Payment Information</h1>
 
         <section>
         <hr>
@@ -38,7 +47,7 @@
               <form action="/action_page.php">
                   Credit Card Number
                   <br>
-                  <input type="text" name="fname"><br>
+                  <input type="text" name="cnumber"><br>
               </form>
               <br>
               <form action="/action_page.php">
@@ -50,42 +59,46 @@
               <form action="/action_page.php">
                   Expiration Date
                   <br>
-                  <input type="date" name="fname"><br>
+                  <input type="date" name="exp"><br>
               </form>
               <br>
               <form action="/action_page.php">
                   Address 
                   <br>
-                  <input type="text" name="fname"><br>
+                  <input type="text" name="address"><br>
               </form>
               <br>
-              <form action="/action_page.php">
-                  Zip/Postal Code 
-                  <br>
-                  <input type="text" name="fname"><br>
-              </form>
+              <div class="zip">
+                <form action="/action_page.php">
+                    Zip/Postal Code 
+                    <br>
+                    <input type="text" name="zip"><br>
+                </form>
+              </div>
               <br>
               <form action="/action_page.php">
                   City
                   <br>
-                  <input type="text" name="fname"><br>
+                  <input type="text" name="city"><br>
               </form>
               <br>
               <form action="/action_page.php">
                   State/Province
                   <br>
-                  <input type="text" name="fname"><br>
+                  <input type="text" name="province"><br>
               </form>
               <br>
-              <form action="/action_page.php">
-                  Phone Number
-                  <br>
-                  <input type="text" name="fname"><br>
-              </form>
+              <div class="pnumber">
+                <form action="/action_page.php">
+                    Phone Number
+                    <br>
+                    <input type="text" name="pnumber"><br>
+                </form>
+              </div>
             </div>
 
 
-           <a class="submit-checkout" href="order-confirm.html">Make a Payment</a>
+           <a class="submit-checkout" href="order-confirm.html">Confirm Payment</a>
            <a class="submit-back" href="order-cart.html">Back to Cart</a>
             </div>
 
@@ -100,6 +113,25 @@
   Table HTML: https://www.w3schools.com/html/html_tables.asp  
 
 -->
+
+    </section>
+
+    <section>
+
+      <div class="footer">
+        <p class="credits">© 2017 Healthy Hipsters. All rights reserved.</p>
+        <div class="social">
+          <figure>
+            <img src="imgs/Facebook.png" alt="Facebook">
+          </figure>
+          <figure>
+            <img src="imgs/Instagram.png" alt="Instagram">
+          </figure>
+          <figure>
+            <img src="imgs/Twitter.png" alt="Twitter">
+          </figure>
+        </div>
+      </div>
 
     </section>
 
