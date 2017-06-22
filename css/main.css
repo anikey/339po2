@@ -584,13 +584,13 @@ div.hashtag{
 textarea
 {
 	/* reference: https://www.w3schools.com/css/css_form.asp */
-	width: 80%;
+	width: 96%;
 	height: 120px;
 	padding: 0.5rem;
     margin: 0.4rem 0;
     box-sizing: border-box;
     border: 1px solid gray;
-    /*resize:none;*/
+    resize:none;
 }
 .grid-col-1of2 > h3
 {
@@ -649,7 +649,7 @@ textarea
 
 .nutrition-table
 {
-	margin-top:-1rem;
+	margin-top:-1.5rem;
 	margin-left: 2.5rem;
 
 	width:80%;
