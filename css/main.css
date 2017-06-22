@@ -42,6 +42,53 @@ code {
 	src:url('webfont/Brandon_reg_0.otf');
 }
 
+
+/* ////////////////////////////////////////////*/
+
+/* HEADERS ////////////////////////////////////*/
+
+h1{
+	font-size: 2rem;
+	margin-top: 4rem;
+}
+
+
+h1.hashtag{
+	text-align: center;
+	font-size: 3rem;
+	color: #0CC10C;
+	margin-top: 5rem;
+}
+
+
+p.homecontent{
+	font-size:1.5rem;
+}
+
+p.hashtagcontent{
+	text-align: center;
+	font-size: 1.2rem;
+	color: gray;
+	margin-top: -30px;
+}
+
+h1.promo{
+
+	text-align: center;
+	font-size: 2.5rem;
+	color: #ffcc00;
+	margin-top: 5rem;
+
+}
+
+
+
+
+
+
+
+
+
 /* ////////////////////////////////////////////*/
 
 /* BUTTONS ////////////////////////////////////*/
@@ -291,6 +338,12 @@ a:hover {
 
 figure{
 	display:inline;
+
+}
+
+
+figure.cover{
+	margin:0;
 }
 
 img.foodpic {
@@ -396,22 +449,21 @@ div.color4 {
 }
 
 div.logo {
-  display:inline-block;
-  background-color: gray;
-  margin-left: 10rem;
-  margin-top: -0.21rem;
+/*  display:inline-block;*/
+  /*margin-left: 10rem;
+  margin-top: 1rem;*/
+  width:200px;height:60px;"
 }
 
 .cover {
-  display:inline-block;
-  background-color: gray;
-  /*margin-left: -1rem;*/
   width: 100%;
-  height: 250px;
-/*  margin:0 !important; 
-  padding:0 !important;*/
+  margin-top: 40px;
+  margin-bottom: 40px; 
+  padding:0 ;
 
   }
+
+
 
 /* //////////////////////////////////////*/
 
@@ -508,12 +560,27 @@ textarea
 }
 
 
+.column-home {
+
+	margin: 1rem;
+	display: inline-block;
+	width: 30%;
+
+}
+
 .abt {
 
 	background-color: gray;
 	width: 100%;
-	height: 600px;
+	height: 100%;
+}
 
+
+
+.home {
+
+	width: 100%;
+	height: 100%;
 }
 
 .product-image
