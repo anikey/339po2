@@ -38,6 +38,11 @@ code {
 }
 
 @font-face{
+	font-family:'Affogato-Medium';
+	src: url('webfont/Affogato-Medium.woff');
+}
+
+@font-face{
 	font-family:'brandon-grotesque';
 	src:url('webfont/Brandon_reg_0.otf');
 }
@@ -456,8 +461,16 @@ hr.gray-line
 
 /* CART ///////////////////////////////////*/
 
-.cart figure {
-   margin-left:0;
+
+.cart
+{
+   display:inline-block;
+   /*border:solid 1px red;*/
+}
+
+.cart figure
+{
+	margin-left:0;
 }
 
 .cart img {
@@ -467,11 +480,10 @@ hr.gray-line
 	float: right;
 	display: inline-block;
 	padding:0;
-	margin-left: -2.5rem;
-	margin-right: 0.5rem;
-   /*border: solid 1px red;*/
+	margin-left: -2.5rem;/*
+	margin-right: 0.5rem;*/
+    /*border: solid 1px blue;*/
 	/*margin-right: 11rem;*/
-	/*border: solid 1px red;*/
 }
 
 table, th, td {
@@ -621,6 +633,74 @@ textarea
 
 }
 
+.submit-review
+{
+	cursor:pointer;
+}
+
+.review-feedback
+{
+	display:none;
+}
+
+.nutrition-table
+{
+	margin-top:-1rem;
+	margin-left: 2.5rem;
+
+	width:80%;
+
+}
+
+/*.nutrition-table table
+{
+	border-collapse:collapse;
+}
+*/
+
+.nutrition-table th
+{
+	padding-left: 0.25rem;
+	padding-right: 0.25rem;
+}
+
+
+.nutrition-bold 
+{
+	font-family:Affogato-Medium;
+	padding-right:0.5rem;
+	border:bottom: solid 1px rgb(150, 150, 150);
+}
+
+.nutrition-subh
+{
+	margin-left:0.5rem;
+	padding-right:0.5rem;
+	border:none;
+}
+
+.nutrition-divider-fat
+{
+	display:block;
+	border-bottom: solid 7px #F9D955;
+	margin-bottom:0.5rem;
+}
+
+.nutrition-divider-thin
+{
+	display:block;
+	border-bottom: solid 4px #F9D955;
+	margin-bottom:0.5rem;
+}
+
+.nutrition-percent
+{
+	float:right;
+	margin-left:10rem;
+	/*text-align:right;*/
+}
+
+
 /* //////////////////////////////////////*/
 
 /* PRODUCT LISTING ////////////*/
@@ -723,6 +803,10 @@ textarea
   transition: opacity 1s ease-in-out;
 }
 
+.product-description
+{
+	line-height: 1.5rem;
+}
 
 .product-price, .product-name
 {
