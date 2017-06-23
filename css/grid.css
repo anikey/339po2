@@ -47,7 +47,6 @@
 /* MEDIA QUERY *************************************/
 @media (max-width:1297px)
 {
-
 	.block
 	{
 		flex: 0 0 30%;
@@ -55,11 +54,16 @@
 }
 
 
-@media (max-width:60em)
+@media (max-width:40em)
 {
+	#content
+	{
+		margin-left:4rem;
+	}
+
 	.block
 	{
-		flex: 1 1 100%;
+		flex: 0 0 100%;
 	}
 }
 
