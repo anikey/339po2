@@ -67,7 +67,26 @@
 
             </tr>
 
-            <tr>
+            <tr class="empty-cart">
+
+              <td>
+
+                <div class="product-image-hor">
+              <!--     <figure>
+                    <img src="imgs/yo3.jpg" alt="yogurt">
+                  </figure> -->
+                  <div class="product-name-hor"> No Items in Cart</div> 
+                </div>
+
+              </td>
+
+               <td class="label-padding"> </td> 
+               <td class="quantity"> </td>
+               <td class="label-padding"> </td>
+
+            </tr>
+
+            <tr class="cart-yogurt-item" id="yogurt-item">
 
               <td>
 
@@ -83,12 +102,12 @@
                <td class="label-padding">$4.50</td> 
                <td class="quantity">1</td>
                <td class="label-padding">$4.50</td>
-               <td class="label-padding"><a href="#">Remove</a></td>
+               <td class="label-padding"><a class="remove-cart-item" onclick="removeYogurt()">Remove</a></td>
 
             </tr>
 
 
-            <tr>
+            <tr class="cart-acai-item" id="acai-item">
 
               <td>
 
@@ -104,13 +123,13 @@
               <td class="label-padding">$5.00</td> 
               <td class="quantity">1</td>
               <td class="label-padding">$5.00</td>
-              <td class="label-padding"><a href="#">Remove</a></td>
+              <td class="label-padding"><a class="remove-cart-item" onclick="removeAcai()">Remove</a></td>
             
             </tr>
 
           </table>
 
-          <div class="total">Grand Total: $9.50 </div> 
+          <div class="total" id="total">Grand Total: $9.50 </div>
 
           <a class="submit-checkout" href="order-delivery.html">Proceed to Checkout »</a>
 
@@ -144,6 +163,10 @@
       </section>
 
     </section>
+
+    <!-- Load JS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/functions.js"></script>
 
   </body>
 </html>
