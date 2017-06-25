@@ -10,7 +10,8 @@
 	margin:0;
 }
 
-.content-container, .container
+/*.content-container, .container*/
+.content-container, .container,  .product-row /*, #content */
 {
 	display: flex;
 	flex-wrap: wrap;
@@ -19,6 +20,7 @@
 
 .box, .block
 {
+/*	border: solid 1px red;*/
 	flex: 1 1 auto;
 }
 
@@ -43,8 +45,22 @@
 }
 
 /* MEDIA QUERY *************************************/
-@media (max-width:50em)
+@media (max-width:1297px)
 {
+	.block
+	{
+		flex: 0 0 30%;
+	}
+}
+
+
+@media (max-width:40em)
+{
+	#content
+	{
+		margin-left:4rem;
+	}
+
 	.block
 	{
 		flex: 0 0 100%;

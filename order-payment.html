@@ -4,7 +4,7 @@
   <head>
 
     <meta charset="utf-8">
-    <title>Healthy Hipsters - Online Ordering</title>
+    <title>Healthy Hipster - Online Ordering</title>
     <meta name=viewport content="width=device-width, initial-scale=1">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/grid.css" rel="stylesheet">
@@ -14,20 +14,41 @@
 
   <body>
 
-    <div class="logo" style="width:170px;height:60px;"></div>
+    <section id="top-bar">
 
-    <nav class="nav-bar">
-      <a class="button-nav" href="index.html">Home</a>
-      <a class="button-nav" href="about.html">About</a>
-      <a class="button-nav" href="menu.html">Menu</a>
-      <a class="button-nav" href="order.html">Order</a>
-    </nav>
+      <div class="logo" >
 
-    <div class="cover"></div>
+         <figure>
+            <img src="imgs/logo1.png" alt="Facebook" width=520px height=180px; >
+          </figure>
+        
+      </div>
+
+      <nav class="nav-bar">
+        <a class="button-nav" href="index.html">Home</a>
+        <a class="button-nav" href="about.html">About</a>
+        <a class="button-nav" href="menu.html">Menu</a>
+        <a class="button-nav" href="order.html">Order</a>
+        <a class="cart" href="order-cart.html">
+          <figure>
+            <img src="imgs/cart.png" alt="shopping cart">
+          </figure>
+        </a>
+      </nav>
+
+    </section>
+
+    <div class="cover">
+
+      <figure class ="cover" >
+        <img src="imgs/ordercover.jpg" alt="order cover" width="100%" height="100%"/>
+      </figure>
+
+    </div>
 
     <section id="content">
 
-        <h1>Payment Information</h1>
+        <h1>2. PAYMENT INFORMATION</h1>
 
         <section>
         <hr>
@@ -38,7 +59,7 @@
               <form action="/action_page.php">
                   Credit Card Number
                   <br>
-                  <input type="text" name="fname"><br>
+                  <input type="text" name="cnumber"><br>
               </form>
               <br>
               <form action="/action_page.php">
@@ -50,58 +71,80 @@
               <form action="/action_page.php">
                   Expiration Date
                   <br>
-                  <input type="date" name="fname"><br>
+                  <input type="date" name="exp"><br>
               </form>
               <br>
               <form action="/action_page.php">
                   Address 
                   <br>
-                  <input type="text" name="fname"><br>
+                  <input type="text" name="address"><br>
               </form>
               <br>
-              <form action="/action_page.php">
-                  Zip/Postal Code 
-                  <br>
-                  <input type="text" name="fname"><br>
-              </form>
+              <div class="zip">
+                <form action="/action_page.php">
+                    Zip/Postal Code 
+                    <br>
+                    <input type="text" name="zip"><br>
+                </form>
+              </div>
               <br>
               <form action="/action_page.php">
                   City
                   <br>
-                  <input type="text" name="fname"><br>
+                  <input type="text" name="city"><br>
               </form>
               <br>
               <form action="/action_page.php">
                   State/Province
                   <br>
-                  <input type="text" name="fname"><br>
+                  <input type="text" name="province"><br>
               </form>
               <br>
-              <form action="/action_page.php">
-                  Phone Number
-                  <br>
-                  <input type="text" name="fname"><br>
-              </form>
+              <div class="pnumber">
+                <form action="/action_page.php">
+                    Phone Number
+                    <br>
+                    <input type="text" name="pnumber"><br>
+                </form>
+              </div>
             </div>
 
 
-           <a class="submit-checkout" href="order-confirm.html">Make a Payment</a>
-           <a class="submit-back" href="order-cart.html">Back to Cart</a>
-            </div>
-
-          </div>
+           <a class="submit-checkout" href="order-confirm.html">Confirm Payment »</a>
+           <a class="submit-back" href="order-delivery.html">« Back to Delivery</a>
+           
+        </div>
 
       </section>
 
+    <section>
 
-<!-- CITATIONS
+      <div class="footer">
+        <p class="credits">© 2017 Healthy Hipster. All rights reserved.</p>
+        <div class="social">
+          <figure>
+            <img src="imgs/Facebook.png" alt="Facebook">
+          </figure>
+          <figure>
+            <img src="imgs/Instagram.png" alt="Instagram">
+          </figure>
+          <figure>
+            <img src="imgs/Twitter.png" alt="Twitter">
+          </figure>
+        </div>
+      </div>
 
-  Table CSS: https://www.w3schools.com/css/css_table.asp 
-  Table HTML: https://www.w3schools.com/html/html_tables.asp  
-
--->
+    </section>
 
     </section>
 
   </body>
 </html>
+
+<!-- CITATIONS
+
+  Table CSS: https://www.w3schools.com/css/css_table.asp 
+  Table HTML: https://www.w3schools.com/html/html_tables.asp  
+  Cover Photo: https://static.pexels.com/photos/407110/pexels-photo-407110.jpeg
+
+-->
