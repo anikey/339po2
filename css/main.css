@@ -176,7 +176,7 @@ p.abt{
 
 .submit:hover, focus {
 	color: white;
-	background-color: #24c724;
+	opacity: 0.8;
 }
 
 .submit-checkout {
@@ -188,6 +188,7 @@ p.abt{
 	padding-top: 0.6rem;
 	padding-bottom: 0.6rem;
 	margin-top: 5rem;
+	margin-right: 1rem;
 	font-size: 1rem;
 	font-family: Affogato-Regular;
 	text-decoration: none;
@@ -199,11 +200,11 @@ p.abt{
 
 .submit-checkout:hover, focus {
 	color: white;
-	background-color: #24c724;
+	opacity: 0.8;
 }
 
 .submit-back {
-	background-color: gray;
+	background-color: #A9A9A9;
 	color: white;
 	padding: 0.4rem;
 	padding-left: 2rem;
@@ -221,7 +222,7 @@ p.abt{
 
 .submit-back:hover, focus {
 	color: white;
-	background-color: #939393;
+	opacity: 0.8;
 }
 
 .submit-center {
@@ -243,7 +244,7 @@ p.abt{
 
 .submit-center:hover, focus {
 	color: white;
-	background-color: #24c724;
+	opacity: 0.8;
 }
 
 .confirm
@@ -293,22 +294,12 @@ p.abt{
 
 /* STYLE GUIDE ///////////////////////////////*/
 
-.main {
-	font-family: brandon-grotesque, Arial;
-	color: #0CC10C;
-	font-size: 30px;
-}
-
 .product-card {
 	padding: 1rem;
 	text-align: center;
 	vertical-align: top;
 	display: inline-block; 
 	line-height: 0.1rem;
-}
-
-h6 {
-	color: red;
 }
 
 .sec {
@@ -323,12 +314,30 @@ h6 {
 	font-size: 20px;
 }
 
-.test {
+.citationsguide {
+	margin-left: 2rem;
+	margin-top: 2rem;
+	width: 80%;
+}
+
+.submit-back-style {
+	background-color: #A9A9A9;
+	color: white;
+	padding: 0.4rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	padding-top: 0.6rem;
+	padding-bottom: 0.6rem;
+	font-size: 1rem;
 	font-family: Affogato-Regular;
-	color: rgb(65, 64, 66);
-	line-height: 1.3rem;
-	font-size: 14px;
-	width: 100%;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.submit-back-style:hover, focus {
+	color: white;
+	opacity: 0.8;
+
 }
 
 /* //////////////////////////////////////////*/
@@ -340,13 +349,14 @@ input[type=text] {
 	padding: 0.5rem;
     margin: 0.4rem 0;
     box-sizing: border-box;
-    border: 0.2px solid gray;
+    border: 0.6px solid #C0C0C0;
    	font-family: Arial;
    	font-size: 0.8rem;
+   	transition: 0.5s;
 }
 
 input[type=text]:focus, textarea {
-	border: 1.5px solid #555;
+	border: 0.6px solid #555;
 	outline: none;
 }
 
@@ -398,6 +408,17 @@ a {
 	color: #F7CB11;
 }
 
+a.product-link {
+	color: black;
+	font-family: Affogato-Regular;
+	text-decoration: none;
+	transition: color 0.5s;
+}
+
+a.product-link:hover, focus {
+	color: #F9D955;
+}
+
 a:hover {
 	color: #F9D955;
 
@@ -406,9 +427,7 @@ a:hover {
 figure{
 	display:inline;
 	height:100%;
-
 }
-
 
 figure.cover{
 	margin:0;
@@ -420,6 +439,12 @@ figure.banner{
 	
 }
 
+.progress-bar img {
+	margin-left: 17%;
+	width: 715px;
+	height: 115px;
+}
+
 
 img{
 	width:100%;
@@ -428,7 +453,7 @@ img{
 
 
 img.hash{
-	height:100%
+	height:100%;
 	width:100%;
 }
 
@@ -478,8 +503,8 @@ hr.gray-line
 }
 
 .cart img {
-	width: 40px;
-	height: 33px;
+	width: 28px;
+	height: 26px;
 	clear: both;
 	float: right;
 	display: inline-block;
@@ -651,7 +676,6 @@ textarea
 {
 	margin-top:-1.5rem;
 	margin-left: 2.5rem;
-
 	width:80%;
 
 }
@@ -671,9 +695,10 @@ textarea
 
 .nutrition-bold 
 {
-	font-family:Affogato-Medium;
-	padding-right:0.5rem;
-	border:bottom: solid 1px rgb(150, 150, 150);
+	font-family: Affogato-Medium;
+	padding-right: 0.5rem;
+	border-bottom: solid 1px;
+	border: rgb(150, 150, 150);
 }
 
 .nutrition-subh
@@ -888,12 +913,15 @@ textarea
 	float: left;
 	padding-top: 0.4rem;
 	padding-left: 6rem;
+	width: 30%;
+	line-height: 1.5rem;
+
 }
 
 .social {
-	padding-top: 0.5rem;
+	padding-top: 1.3rem;
 	float: right;
-	padding-right: -4rem;
+	padding-left: 4rem;
 	margin-left: 8rem;
 }
 
@@ -903,11 +931,9 @@ textarea
 	margin-left: -4rem;
 }
 
-/* /////////////////////////////////*/
-
-/*CITATIONS
-
-Footer: https://codepen.io/cbracco/pen/zekgx
-Icons: https://www.vecteezy.com/vector-art/95039-free-social-media-icons
-
-*/
+.icon-overlay {
+	cursor: pointer;
+	/* change opacity*/
+	opacity: 0.45;
+	transition: opacity 0.5s ease-in-out;
+}
