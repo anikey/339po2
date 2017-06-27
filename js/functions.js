@@ -17,10 +17,13 @@ function removeAcai()
 
 	if (yogurt.style.display == 'none') // if no items in cart
 	{
-		$(".cart-acai-item").toggle(700, function()
+
+		total.innerHTML="Grand Total: $0.00";
+		$(".cart-acai-item").toggle(700);
+		$(".total").toggle(600);
+		$(".product-table").toggle(600, function()
 		{
-			$(".empty-cart").toggle(700);
-			total.innerHTML="Grand Total: $0.00";
+			$(".empty-cart").toggle(800);
 		});
 	}
 	else //if 1 item left in cart
@@ -38,10 +41,13 @@ function removeYogurt()
 
 	if (acai.style.display == 'none') // if no items in cart
 	{
-		$(".cart-yogurt-item").toggle(700, function()
+
+		total.innerHTML="Grand Total: $0.00";
+		$(".cart-yogurt-item").toggle(700);
+		$(".total").toggle(600);
+		$(".product-table").toggle(600, function()
 		{
-			$(".empty-cart").toggle(700);
-			total.innerHTML="Grand Total: $0.00";
+			$(".empty-cart").toggle(800);
 		});
 	}
 	else //if 1 item left in cart

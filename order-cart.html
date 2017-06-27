@@ -18,10 +18,10 @@
 
       <div class="logo" >
 
-         <figure>
-            <img src="imgs/logo1.png" alt="Facebook">
-          </figure>
-        
+        <figure>
+        <img src="imgs/logo1.png" alt="Facebook">
+        </figure>
+
       </div>
 
       <nav class="nav-bar">
@@ -31,9 +31,9 @@
         <a class="button-nav" href="menu.html">MENU</a>
         <a class="button-nav" href="order.html">ORDER</a>
         <a class="cart" href="order-cart.html">
-          <figure>
-            <img src="imgs/cart.png" alt="shopping cart">
-          </figure>
+        <figure>
+          <img src="imgs/cart.png" alt="shopping cart">
+        </figure>
         </a>
 
       </nav>
@@ -43,7 +43,7 @@
     <div class="cover">
 
       <figure class ="cover" >
-        <img src="imgs/ordercover.jpg" alt="order cover">
+       <img src="imgs/ordercover.jpg" alt="order cover">
       </figure>
 
     </div>
@@ -55,110 +55,98 @@
       <section>
         <hr>
 
-          <table class="product-table">
+        <div class="empty-cart"> No Items in Cart </div>
 
-            <tr>
+        <table class="product-table">
 
-              <th>Item Description</th>
-              <th class="label-padding">Item Price</th> 
-              <th class="label-padding">Quantity</th>
-              <th class="label-padding">Price</th>
-              <th class="label-padding"></th>
+          <tr>
 
-            </tr>
+            <th>Item Description</th>
+            <th class="label-padding">Item Price</th> 
+            <th class="label-padding">Quantity</th>
+            <th class="label-padding">Price</th>
+            <th class="label-padding"></th>
 
-            <tr class="empty-cart">
+          </tr>
 
-              <td>
+          <tr class="cart-yogurt-item" id="yogurt-item">
 
-                <div class="product-image-hor">
-              <!--     <figure>
-                    <img src="imgs/yo3.jpg" alt="yogurt">
-                  </figure> -->
-                  <div class="product-name-hor"> No Items in Cart</div> 
-                </div>
+            <td>
 
-              </td>
+              <div class="product-image-hor">
+                <figure>
+                  <img src="imgs/yo3.jpg" alt="yogurt">
+                </figure>
+                <div class="product-name-hor"> Strawberry Coconut Chia Yogurt Parfait</div> 
+              </div>
 
-            </tr>
+            </td>
 
-            <tr class="cart-yogurt-item" id="yogurt-item">
+            <td class="label-padding">$4.50</td> 
+            <td class="quantity">1</td>
+            <td class="label-padding">$4.50</td>
+            <td class="label-padding"><a class="remove-cart-item" onclick="removeYogurt()">Remove</a></td>
 
-              <td>
-
-                <div class="product-image-hor">
-                  <figure>
-                    <img src="imgs/yo3.jpg" alt="yogurt">
-                  </figure>
-                  <div class="product-name-hor"> Strawberry Coconut Chia Yogurt Parfait</div> 
-                </div>
-
-              </td>
-
-               <td class="label-padding">$4.50</td> 
-               <td class="quantity">1</td>
-               <td class="label-padding">$4.50</td>
-               <td class="label-padding"><a class="remove-cart-item" onclick="removeYogurt()">Remove</a></td>
-
-            </tr>
+          </tr>
 
 
-            <tr class="cart-acai-item" id="acai-item">
+          <tr class="cart-acai-item" id="acai-item">
 
-              <td>
+            <td>
 
-                <div class="product-image-hor">
-                  <figure>
-                    <img src="imgs/acai1.jpg" alt="yogurt">
-                  </figure>
-                  <div class="product-name-hor"> Acai Bowl </div> 
-                </div>
+              <div class="product-image-hor">
+                <figure>
+                  <img src="imgs/acai1.jpg" alt="yogurt">
+                </figure>
+                <div class="product-name-hor"> Acai Bowl </div> 
+              </div>
 
-              </td>
+            </td>
 
-              <td class="label-padding">$5.00</td> 
-              <td class="quantity">1</td>
-              <td class="label-padding">$5.00</td>
-              <td class="label-padding"><a class="remove-cart-item" onclick="removeAcai()">Remove</a></td>
-            
-            </tr>
+            <td class="label-padding">$5.00</td> 
+            <td class="quantity">1</td>
+            <td class="label-padding">$5.00</td>
+            <td class="label-padding"><a class="remove-cart-item" onclick="removeAcai()">Remove</a></td>
 
-          </table>
+          </tr>
 
-          <div class="total" id="total">Grand Total: $9.50 </div>
+        </table>
 
-          <a class="submit-checkout" href="order-delivery.html">Proceed to Checkout »</a>
+        <div class="total" id="total">Grand Total: $9.50 </div>
 
-      </section>
-
-      <section>
-
-        <div class="footer">
-              
-          <p class="credits">© 2017 Healthy Hipster. All rights reserved. 
-          <a href="citations.html">Citations</a> | <a href="styleguide.html">Style Guide</a></p>
-
-          <div class="social">
-
-            <figure>
-              <a href="about.html"><img src="imgs/Facebook.png" alt="Facebook"></a>
-            </figure>
-
-            <figure>
-              <a href="about.html"><img src="imgs/Instagram.png" alt="Instagram"></a>
-            </figure>
-
-            <figure>
-              <a href="about.html"><img src="imgs/Twitter.png" alt="Twitter"></a>
-            </figure>
-
-          </div>
-
-        </div>
+        <a class="submit-checkout" href="order-delivery.html">Proceed to Checkout »</a>
 
       </section>
 
     </section>
+
+    <section>
+
+      <div class="footer">
+
+        <p class="credits">© 2017 Healthy Hipster. All rights reserved. 
+        <a href="citations.html">Citations</a> | <a href="styleguide.html">Style Guide</a></p>
+
+        <div class="social">
+
+          <figure>
+            <a href="about.html"><img src="imgs/Facebook.png" alt="Facebook"></a>
+          </figure>
+
+          <figure>
+            <a href="about.html"><img src="imgs/Instagram.png" alt="Instagram"></a>
+          </figure>
+
+          <figure>
+            <a href="about.html"><img src="imgs/Twitter.png" alt="Twitter"></a>
+          </figure>
+
+        </div>
+
+      </div>
+
+    </section>
+
 
     <!-- Load JS -->
     <script src="js/jquery.js"></script>

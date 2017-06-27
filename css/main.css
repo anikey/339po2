@@ -11,7 +11,9 @@ html {
 }
 
 #content {
-	margin-left: 10rem;
+	/*margin-left: 10rem;*/
+	margin-left:auto;
+	margin-right:auto;
 	margin-top: 2rem;
 	width: 74%;
 	height: 100%;
@@ -686,6 +688,11 @@ textarea
 }
 */
 
+[class^='nutrition-']
+{
+	font-family: Affogato-Regular;
+}
+
 .nutrition-table th
 {
 	padding-left: 0.25rem;
@@ -711,8 +718,11 @@ textarea
 .nutrition-divider-fat
 {
 	display:block;
-	border-bottom: solid 7px #F9D955;
-	margin-bottom:0.5rem;
+	border-top: solid 7px #F9D955;
+	padding-top:0.5rem;
+	/*margin-bottom:0.5rem;*/
+
+	width:100%;
 }
 
 .nutrition-divider-thin
@@ -888,10 +898,14 @@ textarea
 	cursor:pointer;
 }
 
+
 .empty-cart
 {
 	display:none;
+	margin-top: 1rem;
+
 }
+
 
 /* //////////////////////////////////////*/
 
@@ -899,13 +913,13 @@ textarea
 
 .footer {
 	display: inline-block;
-	width: 135%;
+	width: 100%;
 	background: #FFF8DC;
 	margin-top: 10rem;
 	padding: 1rem 2rem 2rem;
 	padding-top: 2rem;
 	padding-bottom: 2.2rem;
-	margin-left: -10rem;
+	/*margin-left: -10rem;*/
 }
 
 .credits {

@@ -45,23 +45,29 @@
 }
 
 /* MEDIA QUERY *************************************/
-@media (max-width:1297px)
+
+@media (max-width: 82em)
 {
-	.block
+	.product-item.block
 	{
-		flex: 0 0 30%;
+		width:29%;
+		flex: 1 1 29%;
+	}
+}
+
+@media (max-width: 64em)
+{
+	.product-item.block
+	{
+		width:27%;
+		flex: 1 1 27%;
 	}
 }
 
 
 @media (max-width:40em)
 {
-	#content
-	{
-		margin-left:4rem;
-	}
-
-	.block
+	.product-item.block
 	{
 		flex: 0 0 100%;
 	}
