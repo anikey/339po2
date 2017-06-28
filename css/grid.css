@@ -240,6 +240,25 @@
 	}
 }
 
+@media (max-width:445px)
+{
+
+
+	.nav-bar{
+		margin-right: 2rem;
+		margin-bottom: 0rem;
+
+	}
+
+
+	.cover{
+		margin-top: 10px;
+	}
+
+
+	
+}
+
 /* CLEAR STYLING **********************************/
 
 body article:after, section:after /*containing text in box*/
