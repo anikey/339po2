@@ -106,7 +106,7 @@ h1.promo{
 	text-align: center;
 	font-size: 3rem;
 	color: #ffcc00;
-	margin-top: 4rem;
+	margin-top: 8.5rem;
 
 }
 
@@ -153,6 +153,10 @@ p.abt{
 	font-size: 1.5rem;
 	color:black;
 
+}
+
+.home {
+	margin-top: 3rem;
 }
 
 
@@ -587,9 +591,6 @@ div.color4 {
   background-color: #049904;
 }
 
-div.hashtag{
-	height:230px;
-}
 
 
 
@@ -794,11 +795,7 @@ textarea
 
 
 
-.home {
 
-	width: 100%;
-	height: 100%;
-}
 
 .product-image
 {
