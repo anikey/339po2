@@ -704,15 +704,9 @@ textarea
 {
 	margin-top:-1.5rem;
 	margin-left: 2.5rem;
-	width:80%;
+	width:85%;
 
 }
-
-/*.nutrition-table table
-{
-	border-collapse:collapse;
-}
-*/
 
 [class^='nutrition-']
 {
@@ -764,7 +758,6 @@ textarea
 	margin-left:10rem;
 	/*text-align:right;*/
 }
-
 
 /* //////////////////////////////////////*/
 
@@ -834,8 +827,6 @@ textarea
 	padding-right: 1rem;
 	
 }
-
-.aboutcontact
 
 .product-image
 {
@@ -964,16 +955,16 @@ textarea
 	float: left;
 	padding-top: 0.4rem;
 	padding-left: 6rem;
-	width: 30%;
+	width: 60%;
 	line-height: 1.5rem;
 
 }
+
 
 .social {
 	padding-top: 1.3rem;
 	float: right;
 	padding-left: 4rem;
-	margin-left: 8rem;
 
 	width:25%;
 }
@@ -990,7 +981,7 @@ textarea
 	height: 45px;
 }
 
-.icon-overlay {
+.social img:hover{
 	cursor: pointer;
 	/* change opacity*/
 	opacity: 0.45;
