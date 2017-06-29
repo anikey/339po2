@@ -201,8 +201,8 @@ p.abt{
 	padding-right: 2rem;
 	padding-top: 0.6rem;
 	padding-bottom: 0.6rem;
-	margin-top: 5rem;
-	margin-right: 1rem;
+	margin-top: 4.5rem;
+	margin-right: 3rem;
 	font-size: 1rem;
 	font-family: Affogato-Regular;
 	text-decoration: none;
@@ -221,11 +221,11 @@ p.abt{
 	background-color: #A9A9A9;
 	color: white;
 	padding: 0.4rem;
-	padding-left: 2rem;
-	padding-right: 2rem;
+	padding-left: 4rem;
+	padding-right: 4rem;
 	padding-top: 0.6rem;
 	padding-bottom: 0.6rem;
-	margin-top: 5rem;
+	margin-top: 4.5rem;
 	font-size: 1rem;
 	font-family: Affogato-Regular;
 	text-decoration: none;
@@ -259,6 +259,7 @@ p.abt{
 .submit-center:hover, focus {
 	color: white;
 	opacity: 0.8;
+
 }
 
 .confirm
@@ -362,7 +363,7 @@ p.abt{
 /* FORMS ////////////////////////////////////*/
 
 input[type=text] {
-	width: 40%;
+	width: 390px;
 	padding: 0.5rem;
     margin: 0.4rem 0;
     box-sizing: border-box;
@@ -457,9 +458,10 @@ figure.banner{
 }
 
 .progress-bar img {
-	margin-left: 17%;
-	width: 715px;
-	height: 115px;
+	margin-left: 1%;
+	width: 100%;
+	height: 100%;
+
 }
 
 
@@ -512,7 +514,6 @@ hr.gray-line
 
 /* CART ///////////////////////////////////*/
 
-
 .cart
 {
    display:inline-block;
@@ -537,8 +538,16 @@ hr.gray-line
 	/*margin-right: 11rem;*/
 }
 
+.cart-image img {
+	height: 120px;
+	width: 80px;
+	float: left;
+	margin-right:1rem;
+}
+
 table, th, td {
 	text-align: left;
+	width: 100%;
 
 }
 
@@ -550,12 +559,12 @@ th
 
 th.label-padding
 {
-	padding-left: 3rem;
+	padding-left: 5rem;
 }
 
 td.label-padding
 {
-	padding-left: 3rem;
+	padding-left: 5rem;
 }
 
 
@@ -571,13 +580,13 @@ td
 
 .quantity 
 {
-	padding-left: 4.5em;
+	padding-left: 6.7em;
 }
 
 .total {
-	padding-top: 1rem;
+	padding-top: 3rem;
 	font-size: 1.1rem;
-	padding-right: 6.5rem;
+	padding-right: 8.5rem;
 	float: right;
 }
 
@@ -828,9 +837,6 @@ textarea
 
 .aboutcontact
 
-
-
-
 .product-image
 {
 	position: relative;
@@ -918,17 +924,17 @@ textarea
 
 }*/
 
+
 .product-name-hor
 {
 	float: left;
-	padding-left: 1rem;
+	width:70%;
 }
 
 .remove-cart-item
 {
 	cursor:pointer;
 }
-
 
 .empty-cart
 {
