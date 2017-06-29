@@ -50,6 +50,8 @@
 
     </div>
 
+<!-- Personal Info Form Start -->
+
     <section id="content">
 
       <h1>1. YOUR INFORMATION</h1>
@@ -63,59 +65,44 @@
 
         </div>
 
-          <div class="payment-form">
+        <div class="payment-form">
 
-            <div class="fields-personal">
+          <div class="fields-personal">
 
-                <br/>
+            <p>First Name</p>
+            <input type="text" name="fname">
 
-                <form action="/action_page.php">
-                  First Name<br/>
-                  <input type="text" name="fname"><br/>
-                </form>
+            <p>Last Name</p>
+            <input type="text" name="lname">
 
-                <br/>
+            <p>Email Address</p>
+            <input type="text" name="email">
 
-                <form action="/action_page.php">
-                  Last Name<br/>
-                  <input type="text" name="fname"><br/>
-                </form>
+          </div>
 
-                <br/>
+          <div class="fields-delivery">
 
-                <form action="/action_page.php">
-                  Email Address<br/>
-                  <input type="text" name="fname"><br/>
-                </form>
+            <p>In Store Pickup/Delivery</p>
+            <input id="option" type="radio" name="delivery">
+            <label for="option">Delivery</label>
+            <input id="option2" type="radio" name="pickup">
+            <label for="option2">Pickup</label><br><br>
 
-                <br/>
-
-            </div>
-
-            <div class="fields-delivery">
-
-              In Store Pickup/Delivery<br><br>
-              <input id="option" type="radio" name="delivery">
-              <label for="option">Delivery</label>
-              <input id="option2" type="radio" name="delivery">
-              <label for="option2">Pickup</label><br>
-
-              <form action="/action_page.php">
-                <br>Delivery Address
-                <br>
-                <input type="text" name="fname"><br>
-              </form>
+            <p>Delivery Address</p>
+            <input type="text" name="deliveryaddress">
 
             </div>
 
-           <a class="submit-checkout" href="order-payment.html">Payment Information »</a>
-           <a class="submit-back" href="order-cart.html">« Back to Cart</a>
+            <a class="submit-checkout" href="order-payment.html">Payment Information »</a>
+            <a class="submit-back" href="order-cart.html">« Back to Cart</a>
 
           </div>
 
       </section>
 
     </section>
+
+<!-- Personal Info Form End -->
 
     <section>
 
@@ -128,7 +115,7 @@
 
         <div class="social">
 
-        <div class="social-icons">
+          <div class="social-icons">
 
             <a href="about.html"><img src="imgs/Facebook.png" alt="Facebook">
             </a>

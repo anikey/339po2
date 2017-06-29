@@ -49,7 +49,6 @@ code {
 	src:url('webfont/Brandon_reg_0.otf');
 }
 
-
 /* ////////////////////////////////////////////*/
 
 /* HEADERS ////////////////////////////////////*/
@@ -66,16 +65,12 @@ h1.contact{
 
 }
 
-
 h1.hashtag{
 	text-align: center;
 	font-size: 3rem;
 	color: #0CC10C;
 	margin-top: 5rem;
 }
-
-
-
 
 p span
 {
@@ -94,7 +89,6 @@ p.homecontent2{
 	
 }
 
-
 p.hashtagcontent{
 	text-align: center;
 	font-size: 1.2rem;
@@ -102,7 +96,6 @@ p.hashtagcontent{
 	margin-top: -30px;
 	margin-bottom: 5rem;
 }
-
 
 h1.promo{
 
@@ -112,9 +105,6 @@ h1.promo{
 	margin-top: 8.5rem;
 
 }
-
-
-
 
 h2.promo{
 
@@ -148,8 +138,6 @@ div.abt{
 
 }
 
-
-
 address{
 	text-align: center;
 	font-style: normal;
@@ -164,11 +152,6 @@ p.abt{
 	color:black;
 
 }
-
-
-
-
-
 
 /* ////////////////////////////////////////////*/
 
@@ -363,9 +346,10 @@ p.abt{
 /* FORMS ////////////////////////////////////*/
 
 input[type=text] {
-	width: 390px;
+	width: 375px;
 	padding: 0.5rem;
-    margin: 0.4rem 0;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
     box-sizing: border-box;
     border: 0.6px solid #C0C0C0;
    	font-family: Arial;
@@ -464,18 +448,15 @@ figure.banner{
 
 }
 
-
 img{
 	width:100%;
 	height:100%;
 }
 
-
 img.hash{
 	height:100%;
 	width:100%;
 }
-
 
 .logo figure
 {
@@ -496,9 +477,6 @@ div.logo {
   margin-bottom: -2rem;
   margin-top: 2rem;
 }
-
-
-
 
 img.foodpic {
 	max-width: 20%;
@@ -567,7 +545,6 @@ td.label-padding
 	padding-left: 5rem;
 }
 
-
 th, td {
 	border-bottom: 1px solid #ddd;
 }
@@ -627,8 +604,6 @@ div.color4 {
   padding:0 ;
 
   }
-
-
 
 /* //////////////////////////////////////*/
 
@@ -915,7 +890,6 @@ textarea
 
 }*/
 
-
 .product-name-hor
 {
 	float: left;
@@ -933,7 +907,6 @@ textarea
 	margin-top: 1rem;
 
 }
-
 
 /* //////////////////////////////////////*/
 
@@ -960,7 +933,6 @@ textarea
 
 }
 
-
 .social {
 	padding-top: 1.3rem;
 	float: right;
@@ -974,7 +946,6 @@ textarea
 	margin-left:auto;
 	margin-right:auto;
 }
-
 
 .social img {
 	width: 45px;
