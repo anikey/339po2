@@ -63,6 +63,12 @@
 		padding: 0;
 	}
 
+	.details-delivery {
+	line-height: 2.5rem;
+	float: left;
+	margin-right: 7rem;
+	}
+
 }
 
 @media (max-width: 76em){
