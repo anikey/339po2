@@ -534,6 +534,7 @@ hr.gray-line
 	height: 120px;
 	width: 80px;
 	float: left;
+	margin-right:1rem;
 }
 
 table, th, td {
@@ -897,11 +898,11 @@ textarea
 
 }*/
 
+
 .product-name-hor
 {
 	float: left;
-	padding-left: 1rem;
-	padding-right: 4rem;
+	width:70%;
 }
 
 .remove-cart-item
