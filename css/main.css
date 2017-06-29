@@ -811,6 +811,19 @@ textarea
 
 .home {
 	margin-top: 3rem;
+
+}
+
+.homeright {
+	margin-top: 3rem;
+	padding-left: 1rem;
+	
+}
+
+.homeleft {
+	margin-top: 3rem;
+	padding-right: 1rem;
+	
 }
 
 .aboutcontact
